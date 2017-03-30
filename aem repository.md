@@ -1,6 +1,8 @@
 
 Structure with in repository:
 ==============================
+You must not change anything in the libs/ path. For configuration and other changes
+copy the item in libs/ to apps/ and make any changes within apps/.
 
 /apps
 ======
