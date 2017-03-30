@@ -48,13 +48,13 @@ XSLT templates for generating CQDE project and classpath files, as well as addit
     - profiles
       - [Name of Profile] (for example, default - the default profile that is distributed
 with CQ5)
-      * project.xml.xslt (mandatory template for generating .project files)
-      * - classpath.xml.xslt (mandatory template for generating .classpath files)
-      * + mountPaths (optional multivalue string property defining the paths that should be
+      - project.xml.xslt (mandatory template for generating .project files)
+      - classpath.xml.xslt (mandatory template for generating .classpath files)
+      + mountPaths (optional multivalue string property defining the paths that should be
         mounted, if omitted root is mounted)
-      * + cqdeVersions (optional multivalue string property defining the CQDE5 versions
+      + cqdeVersions (optional multivalue string property defining the CQDE5 versions
 that can use this profile)
-      * + cqdeOS (optional multivalue string property defining the operating systems that
+      + cqdeOS (optional multivalue string property defining the operating systems that
         can use this profile)
 
 
