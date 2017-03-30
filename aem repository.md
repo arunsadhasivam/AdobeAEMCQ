@@ -30,3 +30,19 @@ Temporary working area.
 /var
 ====
 Files that change and are updated by the system; such as audit logs, statistics, event-handling.
+
+Configuring CQDE:
+=================
+If the location of your installation is different from above (for example, another host, port or context
+path) you also need to update the CRX server endpoint. This is the location where CQDE can find
+the CRX WebDAV server. This can be done in the configuration section of the CQDE servlet which
+is available on the Felix Management Console (http://localhost:4502/system/console/
+configMgr ).
+When CQDE is started, it sends information about the users environment to CQ5; including
+version, OS and a profile ID. CQ5 stores this information under /etc/cqde/profiles, where
+each profile must have its own folder. The standard profile is default. The profile folder contains
+XSLT templates for generating CQDE project and classpath files, as well as additional settings.
+
+
+
+
