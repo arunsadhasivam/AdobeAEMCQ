@@ -1,15 +1,26 @@
 /apps
 ======
 Application related; includes component definitions specific to your website.
-• /content
+
+/content
+==========
 Content created for your website.
-• /etc
+
+/etc
+====
 Initialization and configuration information.
-• /home
+
+/home
+=====
 User and Group information.
-• /libs
+
+/libs
+=====
 Libraries and definitions that belong to the core of CQ WCM.
-• /tmp
+/tmp
+=====
 Temporary working area.
-• /var
+
+/var
+====
 Files that change and are updated by the system; such as audit logs, statistics, event-handling.
