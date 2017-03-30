@@ -1,3 +1,7 @@
+
+Structure with in repository:
+==============================
+
 /apps
 ======
 Application related; includes component definitions specific to your website.
