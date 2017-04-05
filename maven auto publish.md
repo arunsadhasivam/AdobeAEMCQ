@@ -22,8 +22,8 @@ have aem-api.jar in classpath.
                   <targetURL>${cq.dev.smt.author.protocol}://${cq.dev.author.host}:${cq.dev.author.port}/crx/packmgr/service.jsp</targetURL>
                   <failOnError>true</failOnError>
                   <failOnMissingEmbed>true</failOnMissingEmbed>
-                  <userId>${build-credential-user-dev}</userId>
-                  <password>${build-credential-password-dev}</password>
+                  <userId>${user-dev}</userId>
+                  <password>${password-dev}</password>
                 </configuration>
               </execution>
               
@@ -36,8 +36,8 @@ have aem-api.jar in classpath.
                   <targetURL>${cq.dev.publish.protocol}://${cq.dev.publish.host}:${cq.dev.publish.port}/crx/packmgr/service.jsp</targetURL>
                   <failOnError>true</failOnError>
                   <failOnMissingEmbed>true</failOnMissingEmbed>
-                  <userId>${build-credential-user-dev}</userId>
-                  <password>${build-credential-password-dev}</password>
+                  <userId>${user-dev}</userId>
+                  <password>${password-dev}</password>
                 </configuration>
               </execution>
             </executions>
@@ -47,6 +47,14 @@ have aem-api.jar in classpath.
     </profile>
     
     
+    set properties to be used in cli
+    ================================
+    <pom>
+     <properties>
+     <password-dev>admin</password-dev>
+     </properties>
+    
+    </pom>
     run:
     ====
     Profiles can be explicitly specified using the -P CLI option.
@@ -63,4 +71,5 @@ have aem-api.jar in classpath.
      -D, --define <arg>
     Defines a system property
     
-    mvn clean install -PDevAppInstall -Dbuild-credential-password-dev="admin"
+    mvn clean install -PDevAppInstall -Dpassword-dev="admin"
+    password-dev is a properties file
