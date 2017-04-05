@@ -51,7 +51,7 @@ have aem-api.jar in classpath.
     ================================
     <pom>
      <properties>
-     <password-dev>admin</password-dev>
+     <password-dev>${DEV_PWD}</password-dev>
      </properties>
     
     </pom>
@@ -71,5 +71,6 @@ have aem-api.jar in classpath.
      -D, --define <arg>
     Defines a system property
     
-    mvn clean install -PDevAppInstall -Dpassword-dev="admin"
+    mvn clean install -PDevAppInstall -Dpassword-dev="admin" to dynamically password from command prompt for security without 
+    need to store in file.
     password-dev is a properties file
