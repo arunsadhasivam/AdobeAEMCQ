@@ -504,13 +504,28 @@ C:\Workspace\AEM\aem \ui.apps
 
 C:\Workspace\AEM\aem \ui.content
 
-C:\Workspace\AEM\aem\ui.content\src\main\content
+      C:\Workspace\AEM\aem\ui.content\src\main\content
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\dam
+      
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\_jcr_content
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\_jcr_content\image
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en\_jcr_content
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en\_jcr_content\image
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en\_jcr_content\file.dir
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en\_jcr_content\file 
+      
+      
+      
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\content\en\.content.xml
+      C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root\content\dam
+      
+      C:\Workspace\AEM\aem\ui.content\src\main\content\META-INF
 
-C:\Workspace\AEM\aem\ui.content\src\main\content\jcr_root
 
-C:\Workspace\AEM\aem\ui.content\src\main\content\META-INF
-
-
+C:\Workspace\AEM\aem\pom.xml
 
 
 
