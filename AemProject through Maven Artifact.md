@@ -5,11 +5,18 @@ C:\Workspace\AEM>mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generat
 e -DarchetypeGroupId=com.adobe.granite.archetypes  -DarchetypeArtifactId=aem-pro
 ject-archetype -DarchetypeVersion=10 -DarchetypeCatalog=https://repo.adobe.com/n
 exus/content/groups/public/
+
+
 [INFO] Scanning for projects...
+
 [INFO]
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] Building Maven Stub Project (No POM) 1
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO]
 [INFO] >>> maven-archetype-plugin:2.4:generate (default-cli) > generate-sources
 @ standalone-pom >>>
