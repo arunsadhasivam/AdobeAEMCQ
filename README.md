@@ -17,5 +17,14 @@ it comes with
 
 3)Sling IDE Tools - Sightly
 
+Projects:
+=========
+once installed it shows 2 projects
+
+1)Sling - Apache sling Bundle Project
+
+2)Sling - Apache Content Project.
+
+
 
 
