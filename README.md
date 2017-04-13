@@ -44,3 +44,21 @@ in Sling Bundle Project , it prompt to select artifact(org.apache.sling:sing-bun
 
 finally it prompt to enter the server you can give port to 4502 to listen and so that you right on server and get the updated files 
 from AEM server . instead of manually creating.
+
+
+
+Two ways to generate AEM projects
+==================================
+
+Either use the AEM Eclipse extension and follow the New Project wizard (choosing AEM Sample Multi-Module Project)...
+
+Or use your mvn skills:
+
+1) use sling plugin
+
+2)use  maven script
+
+mvn archetype:generate \
+ -DarchetypeGroupId=com.adobe.granite.archetypes \
+ -DarchetypeArtifactId=aem-project-archetype \
+ -DarchetypeVersion=11-SNAPSHOT
