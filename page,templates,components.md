@@ -13,3 +13,7 @@ components:
 ===========
 
 All Template associated with page Component which is rendering content.
+
+Website:
+========
+Site refer the template created.
