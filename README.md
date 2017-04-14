@@ -35,7 +35,7 @@ choose in Adobe AEM application project creation  archetype as 10,9,8,7 whicheve
 
 Apply your changes and click on ‘Ok’. Now we should have maven archetypes to create AEM projects. Click here to see how to create an AEM Project
 Click on ‘Add Local Catalog’ instead of remote catalog. Browse the xml file and select the same and click ‘Ok’
-
+ 
 Eclipse Create Project:
 ======================
 
