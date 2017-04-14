@@ -58,3 +58,14 @@ project. but when you check the file path it is same path. just in view it shows
 if any error shows on separate maven project i.e like core , right click on core  Maven > update Project to make it compile
 
 then only you can src gets compiled and class file gets generated otherwise it wont get generated.
+
+STEP 5:
+=======
+go to root project maven and run only through it publish to localhost , it wont work when publish from eclipse.
+
+command
+=======
+   
+     mvn clean install -PautoInstallPackage
+
+
