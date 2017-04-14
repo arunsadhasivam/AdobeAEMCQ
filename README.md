@@ -6,7 +6,24 @@ https://eclipse.adobe.com/aem/dev-tools/
 OR
 type aem in the Eclipse market Place
 
+Install the below plugins populated
+
+1)Aem
+
+2)Sling
+
 https://github.com/Adobe-Marketing-Cloud/aem-eclipse-developer-tools
+
+Eclipse Create Project:
+======================
+
+New project > choose AEM sample Multi-Module Project.
+
+you can create simple content , apps module using
+
+1)sling module project
+
+2)sling content project
 
 Apache Sling Plugins:
 =====================
