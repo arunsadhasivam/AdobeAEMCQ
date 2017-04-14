@@ -86,16 +86,18 @@ from AEM server . instead of manually creating.
 
 
 
-Two ways to generate AEM projects
+Three ways to generate AEM projects
 ==================================
 
 Either use the AEM Eclipse extension and follow the New Project wizard (choosing AEM Sample Multi-Module Project)...
 
 Or use your mvn skills:
 
-1) use sling plugin
+1) use sling plugin if single module.
 
-2)use  maven script
+2) AEM Sample Multi-Module Project - if it involves multi module in pom.xml
+
+2)use  maven script - if we dont want to install plugin.
 
 C:\Workspace\AEM> mvn archetype:generate \
  -DarchetypeGroupId=com.adobe.granite.archetypes \
