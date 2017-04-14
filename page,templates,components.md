@@ -1,4 +1,25 @@
 
+Operations in AEM:
+==================
+
+1)Create Node
+
+2)Create File
+
+3)create Folder
+
+4)Create Project
+
+5)create Bundle
+
+6)create Template
+
+7)create components
+
+8)Create Dialog.
+
+
+
 Templates:
 ==========
 
