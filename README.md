@@ -29,6 +29,9 @@ Give the url ‘https://repo.adobe.com/nexus/content/groups/public/archetype-cat
 Step 3:
 -------
 now if you create AEM Sample Template project 'slightly 1.1 or wont support j2ee 1.4' issues wont come.
+NOTE:
+=====
+choose in Adobe AEM application project creation  archetype as 10,9,8,7 whichever your plugin support.
 
 Apply your changes and click on ‘Ok’. Now we should have maven archetypes to create AEM projects. Click here to see how to create an AEM Project
 Click on ‘Add Local Catalog’ instead of remote catalog. Browse the xml file and select the same and click ‘Ok’
