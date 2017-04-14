@@ -16,4 +16,5 @@ All Template associated with page Component which is rendering content.
 
 Website:
 ========
+New Page > select template to create site.
 Site refer the template created.
