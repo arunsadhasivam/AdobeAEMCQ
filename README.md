@@ -14,6 +14,25 @@ Install the below plugins populated
 
 https://github.com/Adobe-Marketing-Cloud/aem-eclipse-developer-tools
 
+Architype project
+==================
+
+Step 1:
+--------
+
+click Window > Preferences and Select Archetype under Maven. Click on ‘Add Remote Catalog'
+
+Step 2:
+--------
+Give the url ‘https://repo.adobe.com/nexus/content/groups/public/archetype-catalog.xml’ and provide description. Click on Verify and say ‘Ok’
+
+Step 3:
+-------
+now if you create AEM Sample Template project 'slightly 1.1 or wont support j2ee 1.4' issues wont come.
+
+Apply your changes and click on ‘Ok’. Now we should have maven archetypes to create AEM projects. Click here to see how to create an AEM Project
+Click on ‘Add Local Catalog’ instead of remote catalog. Browse the xml file and select the same and click ‘Ok’
+
 Eclipse Create Project:
 ======================
 
