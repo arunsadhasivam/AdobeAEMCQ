@@ -2,6 +2,9 @@
 
 Adobe plugins:
 ==============
+https://eclipse.adobe.com/aem/dev-tools/ 
+OR
+type aem in the Eclipse market Place
 
 https://github.com/Adobe-Marketing-Cloud/aem-eclipse-developer-tools
 
