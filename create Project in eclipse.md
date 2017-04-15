@@ -75,7 +75,7 @@ http://localhost:4502/crx/packmgr/index.jsp
 
 we can see 2 bundles get installed.
 
-1) ui.apps.
+1)ui.apps.
 
 2)ui.conent.
 
