@@ -68,4 +68,20 @@ command
    
      mvn clean install -PautoInstallPackage
 
+STEP 6:
+========
+
+http://localhost:4502/crx/packmgr/index.jsp
+
+we can see 2 bundles get installed.
+
+1) ui.apps.
+
+2)ui.conent.
+
+NOTE:
+======
+only maven build install the bundle. if publish from eclipse it is not creating any packages in packmgr folder.
+
+
 
