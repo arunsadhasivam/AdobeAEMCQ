@@ -77,34 +77,34 @@ allowedpaths: /content(/.*)?
     /apps/symantec/components/page/TestPage/header.html
     ========================================================
     
-    properties:
-    ----------
+   properties:
+   ----------
     jcr:primaryType - nt:file.
     
     
-     /apps/Testweb/components/page/TestPage/jcr:content
-    =============================================================
+   /apps/Testweb/components/page/TestPage/jcr:content
+   =============================================================
     
-    properties:
-   -------------
+   properties:
+   -----------
     jcr:primaryType - nt:resource.
     
     
     /apps/Testweb/components/page/TestPage/dialog.xml
     =============================================================
     
-    properties:
-    -----------
+   properties:
+   ------------
     jcr:primaryType - nt:resource.
     
     
     /apps/Testweb/components/page/TestPage/dialog.xml
     ========================================================
     
-    properties:
-    -----------
+   properties:
+   -----------
     
-    jcr:primaryType - cq:dialog.
+   jcr:primaryType - cq:dialog.
     
     
     /apps/Testweb/components/page/TestPage/dialog.xml/ items
@@ -114,41 +114,42 @@ allowedpaths: /content(/.*)?
     -----------
     jcr:primaryType - cq:widgetCollection
     
-     /apps/Testweb/components/page/TestPage/dialog.xml/ items/ tabs
-     ===============================================================
+   /apps/Testweb/components/page/TestPage/dialog.xml/ items/ tabs
+   ===============================================================
         
-     properties:
-     -----------
+    properties:
+    -----------
     
      jcr:primaryType - cq:TabPanel
     
-     /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items
-     ====================================================================
+   
+   /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items
+   ====================================================================
           
-      properties:
-      -----------
+   properties:
+   -----------
     
-      jcr:primaryType -  cq:widgetCollection
+   jcr:primaryType -  cq:widgetCollection
       
-      
-       /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / index
-       =============================================================================
+         
+    /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / index
+    ============================================================================
           properties:
           -----------
     
           path -  /apps/TestPage/components/page/tab/index.json
-          
-        /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / main
-       =============================================================================
-       
+   
+   
+     /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / main
+     =============================================================================
           properties:
           -----------
     
           path -  /apps/TestPage/components/page/tab/main.json
-             
-         /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / contact
-       =================================================================================
-       
+   
+   
+      /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / contact
+      =================================================================================
          properties:
           -----------
     
