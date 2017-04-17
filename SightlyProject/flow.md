@@ -1,14 +1,16 @@
 flow
 ====
 
-/content
+/content  (/content/Testweb/english/en/index.html/ jcr:content) maps to /apps/TestWeb/templates/testTemplate
 
 e.g
 ====
 2 hierarchy:
 
+
+
 1)/content
-=======
+==========
 
 /content/Testweb/english/en/index.html
 
@@ -21,16 +23,16 @@ properties :
 
 jcr:primaryType - cq:page
 
-/content/Testweb/english/en/index.html/jcr:content
-================================================
+/content/Testweb/english/en/index.html/ jcr:content
+====================================================
 
 properties :
 ------------
-cq:template: /apps/TestWeb/template/testTemplate
+cq:template: /apps/TestWeb/templates/testTemplate
 
 
-/content/Testweb/english/en/index.html/jcr:content/bodyparsys
-===========================================================
+/content/Testweb/english/en/index.html/ jcr:content/bodyparsys
+===============================================================
 
 properties:
 -----------
@@ -53,20 +55,20 @@ apps has 2 parts.
      
      2)/page
 
-2.1) /apps/Testweb/templates
-=============================
+2.1) /apps/TestWeb/templates/testTemplate
+=========================================
 
 properties:
 -----------
 
 allowedpaths: /content(/.*)?
 
-  /apps/Testweb/templates/jcr:content
-  ====================================
+  /apps/TestWeb/templates/testTemplate/jcr:content
+  =================================================
   
   jcr:primaryType : cq:PageContent.
   
-  /apps/symantec/components/page/TestPage
+  /apps/TestWeb/components/page/TestPage
   =============================================
    
    properties:
@@ -74,7 +76,7 @@ allowedpaths: /content(/.*)?
    
    componentGroup - .hidden
    
-    /apps/symantec/components/page/TestPage/header.html
+    /apps/TestWeb/components/page/TestPage/header.html
     ========================================================
     
    properties:
