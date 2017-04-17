@@ -97,20 +97,19 @@ following lines generated automatically.
 --%>
 
 <html>
+
     <head>
-   </head>
+  
+  </head>
+ 
  <body>
 	Hai Sample Test Web Page
 </body>
 </html> 
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
 
-<%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><%
-	// TODO add you code here
-%>
+<%@include file="/libs/foundation/global.jsp"%>
+
 
 
 
