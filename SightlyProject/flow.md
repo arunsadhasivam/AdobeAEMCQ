@@ -82,7 +82,7 @@ allowedpaths: /content(/.*)?
     jcr:primaryType - nt:file.
     
     
-     /apps/symantec/components/page/TestPage/jcr:content
+     /apps/Testweb/components/page/TestPage/jcr:content
     =============================================================
     
     properties:
@@ -90,7 +90,7 @@ allowedpaths: /content(/.*)?
     jcr:primaryType - nt:resource.
     
     
-    /apps/symantec/components/page/TestPage/dialog.xml
+    /apps/Testweb/components/page/TestPage/dialog.xml
     =============================================================
     
     properties:
@@ -98,7 +98,7 @@ allowedpaths: /content(/.*)?
     jcr:primaryType - nt:resource.
     
     
-    /apps/symantec/components/page/TestPage/dialog.xml
+    /apps/Testweb/components/page/TestPage/dialog.xml
     ========================================================
     
     properties:
@@ -107,14 +107,14 @@ allowedpaths: /content(/.*)?
     jcr:primaryType - cq:dialog.
     
     
-    /apps/symantec/components/page/TestPage/dialog.xml/ items
+    /apps/Testweb/components/page/TestPage/dialog.xml/ items
     ===============================================================
         
     properties:
     -----------
     jcr:primaryType - cq:widgetCollection
     
-     /apps/symantec/components/page/TestPage/dialog.xml/ items/ tabs
+     /apps/Testweb/components/page/TestPage/dialog.xml/ items/ tabs
      ===============================================================
         
      properties:
@@ -122,7 +122,7 @@ allowedpaths: /content(/.*)?
     
      jcr:primaryType - cq:TabPanel
     
-     /apps/symantec/components/page/TestPage/dialog.xml/ items/tabs/items
+     /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items
      ====================================================================
           
       properties:
@@ -131,14 +131,14 @@ allowedpaths: /content(/.*)?
       jcr:primaryType -  cq:widgetCollection
       
       
-       /apps/symantec/components/page/TestPage/dialog.xml/ items/tabs/items / index
+       /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / index
        =============================================================================
           properties:
           -----------
     
           path -  /apps/TestPage/components/page/tab/index.json
           
-        /apps/symantec/components/page/TestPage/dialog.xml/ items/tabs/items / main
+        /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / main
        =============================================================================
        
           properties:
@@ -146,7 +146,7 @@ allowedpaths: /content(/.*)?
     
           path -  /apps/TestPage/components/page/tab/main.json
              
-         /apps/symantec/components/page/TestPage/dialog.xml/ items/tabs/items / contact
+         /apps/Testweb/components/page/TestPage/dialog.xml/ items/tabs/items / contact
        =================================================================================
        
          properties:
