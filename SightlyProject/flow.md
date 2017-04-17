@@ -1,8 +1,18 @@
 flow
 ====
 
-/content  (/content/Testweb/english/en/index.html/ jcr:content) maps to /apps/TestWeb/templates/testTemplate
+/content
 
+flow 1 :
+=========
+  content - (/content/Testweb/english/en/index.html/ jcr:content) --> /apps/TestWeb/templates/testTemplate
+
+  template - /apps/TestWeb/templates/testTemplate  -->   /apps/TestWeb/components/page/TestPage
+
+
+flow 2 :
+=========
+/apps/TestWeb/templates/testTemplate
 e.g
 ====
 2 hierarchy:
@@ -67,6 +77,14 @@ allowedpaths: /content(/.*)?
   =================================================
   
   jcr:primaryType : cq:PageContent.
+  
+  it also support refer another template or design.
+  
+  cq:template - /apps/ TestWeb/templates/homepage
+  
+  cq:allowedTemplates- /apps/TestWeb/Page1
+  
+  cq:designPath - /etc/design/TestWeb
   
   /apps/TestWeb/components/page/TestPage
   =============================================
