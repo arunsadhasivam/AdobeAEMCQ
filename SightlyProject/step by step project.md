@@ -95,6 +95,14 @@ following lines generated automatically.
   
 
 --%>
+
+<html>
+    <head>
+   </head>
+ <body>
+	Hai Sample Test Web Page
+</body>
+</html> 
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
 
 <%
