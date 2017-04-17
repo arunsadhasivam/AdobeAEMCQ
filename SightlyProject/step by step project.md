@@ -127,6 +127,7 @@ primaryType: cq:Component
 
 sling:resourceSuperType: wcm/foundation/components/page
 
+NOTE: it works through inheritance.
 
 
 STEP 4:
