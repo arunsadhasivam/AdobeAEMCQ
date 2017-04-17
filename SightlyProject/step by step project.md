@@ -96,30 +96,36 @@ following lines generated automatically.
 
 --%>
 
-<html>
+<html> <body>	Hai Sample Test Web Page</body></html> 
 
-    <head>
-  
-  </head>
- 
- <body>
-	Hai Sample Test Web Page
-</body>
-</html> 
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
 
 <%@include file="/libs/foundation/global.jsp"%>
 
-
-
-
-
-
+/apps/TestWeb/components/page/Testpage
+=======================================
 
 properties:
 -----------
 
+primaryType: cq:Component
+
+SuperType: TestWeb/components/page/page
+
+TestWeb/components/page/page is a component
+
 /libs/wcm/core/components/init/init.jsp
+
+
+TestWeb/components/page/page
+============================
+
+properties:
+------------
+
+primaryType: cq:Component
+
+sling:resourceSuperType: wcm/foundation/components/page
 
 
 
