@@ -129,6 +129,9 @@ sling:resourceSuperType: wcm/foundation/components/page
 
 NOTE: it works through inheritance.
 
+VERY IMPORTANT:
+===============
+if no inheritance to page component (wcm/foundation/components/page) to page component it will not render.
 
 STEP 4:
 =======
