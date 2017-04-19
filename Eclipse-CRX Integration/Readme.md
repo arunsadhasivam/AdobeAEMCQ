@@ -14,3 +14,9 @@ C:\AEM\crx-quickstart\opt\filevault\filevault\vault-cli-3.1.6\bin.
 
 STEP 2:
 =======
+
+Add C:\AEM New Server\crx-quickstart\opt\filevault\vault-cli-3.1.6\bin to path system environment variable. to run
+from command prompt.
+
+STEP 3:
+=======
