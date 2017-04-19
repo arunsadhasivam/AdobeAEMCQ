@@ -20,3 +20,25 @@ from command prompt.
 
 STEP 3:
 =======
+Checking out the repository 
+
+command:
+========
+    
+    c:\Arun> svn co http://svn.server.com/repos/myproject
+    
+STEP 4:
+=======
+
+Synchronizing with the repository
+==================================
+
+You need to synchronize filevault with the repository. To do this:
+In the command line, navigate to content/jcr_root.
+Check out the repository by typing the following (substituting your port number for 4502 and your admin passwords):
+       	
+    c:\Arun> vlt --credentials admin:admin co --force http://localhost:4502/crx
+   
+   
+
+
