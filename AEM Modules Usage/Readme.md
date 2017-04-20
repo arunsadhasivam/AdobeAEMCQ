@@ -1,6 +1,8 @@
 ## Modules
 
-The main parts of the template are:
+https://github.com/Adobe-Marketing-Cloud/aem-project-archetype/blob/master/src/main/archetype/README.md
+
+The main parts of the AEM  are:
 
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 
