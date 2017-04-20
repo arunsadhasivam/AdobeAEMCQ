@@ -2,8 +2,8 @@ To automatically install the project through maven
 ==================================================
 
 To install the bundle in path specify the path in SlingUrlSuffix.
-	
-	   <profile>
+
+	<profile>
 		<id>autoInstallBundle</id>
 		<activation></activation>
 		<build>
@@ -22,3 +22,9 @@ To install the bundle in path specify the path in SlingUrlSuffix.
 			</plugins>
 		</build>
 	    </profile>
+
+To call the profile:
+====================
+you can create profile for deploy in dev,qa
+
+	c:\ARUN\TestWeb\webapi>mvn clean install -PautoInstallPackage
