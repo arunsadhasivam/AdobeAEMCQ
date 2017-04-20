@@ -25,6 +25,7 @@ To install the bundle in path specify the path in SlingUrlSuffix.
 
 To call the profile:
 ====================
+* core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 
 * ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
 
