@@ -71,8 +71,16 @@ NOTE:
 root pom.xml packaging is declared as "pom" only packaging type "pom" can have  module tag i.e packaging type pom
 can only embed other project bundles.
 
-in Overview section it shows " Only projects 'pom' packaging can declare modules"
+in Overview section it shows error if try to embed modules which is not pom type.
 
+NOTE:
+=====
+you can run only selected pom also like ui.core alone or ui.apps alone if try to update only ui changes to crx.
+
+command:
+========
+	
+	mvn clean install -PautoInstallPackage
 
 	 
 
