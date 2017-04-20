@@ -25,6 +25,27 @@ To install the bundle in path specify the path in SlingUrlSuffix.
 
 To call the profile:
 ====================
+
+* ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
+
+* ui.content: contains sample content using the components from the ui.apps
+
+* ui.tests: Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
+
+* ui.launcher: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
+
 you can create profile for deploy in dev,qa
 
 	c:\ARUN\TestWeb\webapi>mvn clean install -PautoInstallPackage
+
+If you have a running AEM instance you can build and package the whole project and deploy into AEM with 
+
+ 	mvn clean install -PautoInstallPackage
+    
+Or to deploy it to a publish instance, run
+
+    mvn clean install -PautoInstallPackagePublish
+    
+Or to deploy only the bundle to the author, run
+
+    mvn clean install -PautoInstallBundle
