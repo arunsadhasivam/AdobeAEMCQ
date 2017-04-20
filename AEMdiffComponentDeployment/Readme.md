@@ -2,9 +2,9 @@ AEM deployment:
 ================
 Aem requires below project type deployment as module.
 
-1)core module to be deployed as jar .
+1)core module to be deployed as jar declared in pom.xml as < packaging> bundle < packaging >.
 
-2)ui module(ui.apps) to be deployed as bundle and 
+2)ui module(ui.apps) -deployed as zip and 
 
 3)content Module(ui.content) to be deployed as zip file and
 whole project should be run as single pom.xml.
@@ -34,7 +34,7 @@ NOTE:
 
 core - bundle as jar since in pom.xml given < packaging > bundle </ packaging> type as bundle.
 
-ui- bundle as zip file since in pom.xml given < packaging > content-package </ packaging>  content-package type.
+ui- bundle as zip file since in pom.xml given < packaging > content-package </ packaging>  content-package type to bundle as zip file.
 
 final log
 ==========
