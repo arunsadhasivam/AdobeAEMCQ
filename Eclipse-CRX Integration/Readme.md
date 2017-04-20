@@ -51,3 +51,27 @@ check whether any vaultclipse shown else  check below:
 go to Help > installation Details > Installed software > VaultClipse > Update.
 
 
+To check out files from CRX repository create following directory structure:
+
+├───jcr_root
+└───META-INF
+           └───vault
+
+Under vault folder create filter.xml file with below content and save the file
+
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/apps">
+        <exclude pattern="/apps/TestWeb/content" />
+    </filter>
+    <filter root="/apps/TestWeb/" />
+    <filter root="/etc/design/apps" />
+</workspaceFilter>
+
+Now open command prompt and go to "jcr_root" folder and enter command - "vlt --credentials : co http://localhost:4502/crx --force", this will check out all files under "/apps/TestWeb/" which we defined in filter.xml file. We can also exclude files by using exclude tag based on the need.
+
+it ignore /apps/TestWeb/content folder.
+
+
+
+
