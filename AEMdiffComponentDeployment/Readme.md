@@ -1,5 +1,16 @@
+AEM deployment:
+================
+Aem requires below project type deployment as module.
 
+1)core module to be deployed as jar .
 
+2)ui module(ui.apps) to be deployed as bundle and 
+
+3)content Module(ui.content) to be deployed as zip file and
+whole project should be run as single pom.xml.
+web api pom.xml is declared as < packaging> pom </ packaging >  pom type packaging in maven.
+
+The parent webapi project has embedded with 3 modules core,ui,content.
 
 
 [INFO] Embedding --- Embedded: groupId=org.test.TestWeb,artifactId=scimApi.core,
