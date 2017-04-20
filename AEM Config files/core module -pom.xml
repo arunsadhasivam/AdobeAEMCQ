@@ -19,15 +19,15 @@
             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <modelVersion>4.0.0</modelVersion>
             <parent>
-                <groupId>org.symantec.scim</groupId>
+                <groupId>org.test.scim</groupId>
                 <artifactId>scimApi</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 <relativePath>../pom.xml</relativePath>
             </parent>
-            <artifactId>scimApi.core</artifactId>
+            <artifactId>webApi.core</artifactId>
             <packaging>bundle</packaging>
-            <name>scim - Core</name>
-            <description>Core bundle for scim</description>
+            <name>TetsWeb - Core</name>
+            <description>Core bundle for TestWeb</description>
             <build>
                 <plugins>
                     <plugin>
@@ -48,7 +48,7 @@
                                 </Embed-Dependency>
                                 -->
                                 <Sling-Model-Packages>
-                                    org.symantec.scim.core
+                                    org.test.webapi.core
                                 </Sling-Model-Packages>
                             </instructions>
                         </configuration>
@@ -70,7 +70,7 @@
                     <!-- Note that this requires /apps/apps/install to exist!! -->
                     <!-- This is typically the case when ui.apps is deployed first -->
                     <!-- Otherwise, create /apps/apps/install manually (CRXDE|Lite) -->
-                    <slingUrlSuffix>/apps/scim/install</slingUrlSuffix>
+                    <slingUrlSuffix>/apps/TestWeb/install</slingUrlSuffix>
                     <failOnError>true</failOnError>
                   </configuration>
                 </plugin>
