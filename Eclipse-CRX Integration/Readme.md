@@ -71,6 +71,7 @@ Under vault folder create filter.xml file with below content and save the file
 Now open command prompt and go to "jcr_root" folder and enter command - "vlt --credentials : co http://localhost:4502/crx --force", this will check out all files under "/apps/TestWeb/" which we defined in filter.xml file. We can also exclude files by using exclude tag based on the need.
 
 it ignore /apps/TestWeb/content folder.
+
 PROJECT SETUP:
 ================
 create a AEM project using "AEM Sample Multi-Module project"
@@ -217,3 +218,11 @@ above filter.xml filter download only /TESTweb from http://localhost:4502/crx/de
     Checkout done.
 
     C:\ARUN\workspace\SalesForce\scimApi\ui.apps\src\main\content\jcr_root>
+
+STEP 5:
+=======
+
+change the files in apps module
+and go to root mvn project C:\ARUN\workspace\WebApi which has embedded with core,apps,content,it.launcher,it.test.
+
+C:\ARUN\workspace\WebApi> mvn clean install -PautoInstallPackage
