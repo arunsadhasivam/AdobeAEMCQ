@@ -224,5 +224,11 @@ STEP 5:
 
 change the files in apps module
 and go to root mvn project C:\ARUN\workspace\WebApi which has embedded with core,apps,content,it.launcher,it.test.
+since webApi.ui.apps and webApi.core is the module which we need changes.as we comment other modules in pom.xml.
+core - WCMUse htl sightly components.
+apps- all web jsp , html pages
+etc- all css,js files
+lib- main lib components,sightly htl taglibs,cq connect jars ,servlet 404.jsp files.
+all jar files will be inside install folder
 
 C:\ARUN\workspace\WebApi> mvn clean install -PautoInstallPackage
