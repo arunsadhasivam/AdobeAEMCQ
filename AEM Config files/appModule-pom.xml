@@ -21,8 +21,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>org.symantec.scim</groupId>
-        <artifactId>scimApi</artifactId>
+        <groupId>org.test.webapi</groupId>
+        <artifactId>webApi</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +30,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>scimApi.ui.apps</artifactId>
+    <artifactId>webApi.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>scim - UI apps</name>
-    <description>UI apps package for scim</description>
+    <name>webApi - UI apps</name>
+    <description>UI apps package for webapi</description>
 
     <!-- <scm>
         <connection></connection>
