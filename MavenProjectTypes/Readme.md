@@ -5,13 +5,13 @@ project structure:
 below is project structure
 
 	 webapi(root)
-     -core(components, servlets,UCMUse sightly components)
-         -src
-         -pom.xml
-		 -ui.apps(ui)
-         -src
-			   -pom.xml
-		-pom.xml
+           -core(components, servlets,UCMUse sightly components)
+              -src
+              -pom.xml(core pom.xml)
+           -ui.apps(ui)
+              -src
+	      -pom.xml(ui pom.xml)
+	  pom.xml(root pom.xml)
 
 when running the main project releated ui.apps and core will run.
 
