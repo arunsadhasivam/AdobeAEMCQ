@@ -6,7 +6,7 @@ if mvn command below is given
 
 it no profile is created to override default autoInstallPackage it generate the core-jar in /apos/apps/install/web-api-snapshot1.0.jar
 to override the path need to override using the profile parameter and give the path to generate the core module jar
-in < slingUrlSuffix> so it generate the jar in meaning full project specific path /apps/scim/install/web-api-snapshot1.0.jar
+in < slingUrlSuffix> so it generate the jar in meaning full project specific path /apps/TestWeb/install/web-api-snapshot1.0.jar
 
 	<profiles>
 		<profile>
@@ -21,7 +21,7 @@ in < slingUrlSuffix> so it generate the jar in meaning full project specific pat
 							<!-- Note that this requires /apps/apps/install to exist!! -->
 							<!-- This is typically the case when ui.apps is deployed first -->
 							<!-- Otherwise, create /apps/apps/install manually (CRXDE|Lite) -->
-							<slingUrlSuffix>/apps/scim/install</slingUrlSuffix>
+							<slingUrlSuffix>/apps/TestWeb/install</slingUrlSuffix>
 							<failOnError>true</failOnError>
 						</configuration>
 					</plugin>
