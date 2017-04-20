@@ -36,9 +36,18 @@ Synchronizing with the repository
 You need to synchronize filevault with the repository. To do this:
 In the command line, navigate to content/jcr_root.
 Check out the repository by typing the following (substituting your port number for 4502 and your admin passwords):
+
+Two ways to check out project
+
+1)command line:
+===============
        	
     c:\Arun> vlt --credentials admin:admin co --force http://localhost:4502/crx
    
-   
+2)vaultClipse:
+===============
+check whether any vaultclipse shown else  check below:
+
+go to Help > installation Details > Installed software > VaultClipse > Update.
 
 
