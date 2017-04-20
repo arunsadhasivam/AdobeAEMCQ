@@ -135,8 +135,8 @@ command:
 above filter.xml filter download only /TESTweb from http://localhost:4502/crx/de/index.jsp#/apps/TestWeb/components/page/page/page.html
 
 
-    C:\ARUN\workspace\WebApi\ui.apps\src\main\content\jcr_root>vlt --cre
-    dentials admin:admin co http://localhost:4502/crx --force
+    C:\ARUN\workspace\WebApi\ui.apps\src\main\content\jcr_root>vlt --credentials admin:admin co http://localhost:4502/crx --force
+    
     Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; suppor
     t was removed in 8.0
     Checkout http://localhost:4502/crx/server/-/jcr:root/ with local files using roo
