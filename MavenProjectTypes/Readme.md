@@ -10,7 +10,7 @@ below is project structure
               -pom.xml(core pom.xml)
            -ui.apps(ui)
               -src
-	     -pom.xml(ui)
+	          -pom.xml(ui)
 	  pom.xml(root pom.xml)
 
 when running the main project releated ui.apps and core will run.
