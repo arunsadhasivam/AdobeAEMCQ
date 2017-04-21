@@ -18,3 +18,8 @@ from a project. For example, if your Maven project contains the directory "src/m
 Plugin to copy the contents of this directory to the "bin" directory of an assembly and to change the permissions of 
 the files in the "bin" directory to UNIX mode 755. The parameters for configuring this behavior are supplied to the Assembly 
 Plugin by way of the assembly descriptor.
+
+Read:
+=====
+https://maven.apache.org/plugins/maven-assembly-plugin/examples/multimodule/module-source-inclusion-simple.html
+
