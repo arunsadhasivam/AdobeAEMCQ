@@ -12,7 +12,7 @@ E.g:
 ====
 below the jar name is webservice_API.0.0.0.jar in this Artificat as maven convention is webservice_API if
 the same is present below it works without any problem if in case i rename the jar to webservice_API_1 then i need to
-update the below xml as  < systemPath>${project.basedir}/lib/webservice_API_1.0.0.jar</ systemPath> and then update Maven Project to
+update the below xml as   < systemPath>${project.basedir}/lib/webservice_API_1.0.0.jar</ systemPath> and then update Maven Project to
 make it bind locally.other wise compile time itself schema shows error before running.
 
     <dependency>
