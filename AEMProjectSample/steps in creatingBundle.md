@@ -103,7 +103,7 @@ we choose above multimodule-content-package-archetype because we want to bundle 
 
 IMPORTANT:
 ===========
-Please while create maven module select checkbox option during maven module creation > select checkbox "create a simple project(skip archetype selection) . so that it wont create unnecessary src and other folders. we need to have only jar in this maven module
+Please while create maven module select checkbox option during maven module creation > select checkbox "create a simple project(skip archetype selection) . so that it wont create unnecessary jcr_root and other folders. we need to have only jar in this maven module
 to export dependencies to all  other maven modules like ui,core,apps.
 
 Maven dependencies module (webapi.dependencies) allows while running maven to have jar dependencies in classpath by loading maven dependencies module.
