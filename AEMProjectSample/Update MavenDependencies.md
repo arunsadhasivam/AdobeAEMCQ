@@ -15,8 +15,13 @@ the same is present below it works without any problem if in case i rename the j
 update the below xml as   < systemPath>${project.basedir}/lib/webservice_API_1.0.0.jar</ systemPath> and then update Maven Project to
 make it bind locally.other wise compile time itself schema shows error before running.
 
+other wise error will be
+[WARNING] 'dependencies.dependency.systemPath' for com.web.ws:webservice_API:jar refer
+s to a non-existing file C:\ARUN\workspace\ARUN\webApi\core\lib\webservice_API.0
+.0.jar @ org.test:webi.core:[unknown-version],  C:\ARUN\workspace\ARUN\webApi\core\pom.xml, line 168, column 16
+
     <dependency>
-        <groupId>com.sforce.ws</groupId>
+        <groupId>com.web.ws</groupId>
         <artifactId>webservice_API</artifactId>
         <version>1.0.0</version>
         <scope>system</scope>
