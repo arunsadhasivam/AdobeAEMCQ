@@ -82,7 +82,11 @@ STEP 2: Add dependency project:
 
 To make it part of the webapi root project.
 
-in eclipse create new Maven Module > module project >
+in eclipse create new Maven Module > 
+
+Enter below detailss 
+
+select check box to skip archetypes.
 
 Module name : webapi.dependencies
 
@@ -92,9 +96,17 @@ next > choose catalog > AEM >
 
 choose com.day.jcr.vault > multimodule-content-package-archetype  1.0.2
 
-IMPORTANT:
-==========
+NOTE:
+=====
+
 we choose above multimodule-content-package-archetype because we want to bundle as zip file through maven and automatically install in AEM.
+
+IMPORTANT:
+===========
+Please while create maven module select checkbox option during maven module creation > select checkbox "create a simple project(skip archetype selection) . so that it wont create unnecessary src and other folders. we need to have only jar in this maven module
+to export dependencies to all  other maven modules like ui,core,apps.
+
+Maven dependencies module (webapi.dependencies) allows while running maven to have jar dependencies in classpath by loading maven dependencies module.
 
 i.e in pom.xml it creates a tag < packaging>content-package</ packaging>
 so it bundle as zip and install in aem packmgr -http://localhost:4502/crx/packmgr/index.jsp
