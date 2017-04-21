@@ -50,15 +50,32 @@ when seeing the maven-sling-plugin artifact
 
 https://mvnrepository.com/artifact/org.apache.sling/maven-sling-plugin/2.2.0
 
-	<parameter>
-          <name>slingUrlSuffix</name>
-          <type>java.lang.String</type>
-          <required>false</required>
-          <editable>true</editable>
-          <description>An optional url suffix which will be appended to the <code>sling.url</code>
+
+	<mojo>
+	  <parameter>
+	      <name>slingUrlSuffix</name>
+	      <type>java.lang.String</type>
+	      <required>false</required>
+	      <editable>true</editable>
+	      <description>An optional url suffix which will be appended to the <code>sling.url</code>
 		for use as the real target url. This allows to configure different target URLs
 		in each POM, while using the same common <code>sling.url</code> in a parent
 		POM (eg. <code>sling.url=http://localhost:8080</code> and
 		<code>sling.urlSuffix=/project/specific/path</code>). This is typically used
 		in conjunction with WebDAV or SlingPostServlet deployment methods.</description>
-        </parameter>
+	    </parameter>
+
+
+
+
+	    <configuration>
+		<bundleFileName implementation="java.lang.String">${sling.file}</bundleFileName>
+		<failOnError implementation="boolean" default-value="true">${sling.failOnError}</failOnError>
+		<obr implementation="java.lang.String">${obr}</obr>
+		<password implementation="java.lang.String" default-value="admin">${sling.password}</password>
+		<slingConsoleUrl implementation="java.lang.String">${sling.console.url}</slingConsoleUrl>
+		<slingUrl implementation="java.lang.String"  default-value="http://localhost:8080/system/console">${sling.url}</slingUrl>
+		 <slingUrlSuffix implementation="java.lang.String">${sling.urlSuffix}</slingUrlSuffix>
+		 <user implementation="java.lang.String" default-value="admin">${sling.user}</user>
+	    </configuration>
+	 </mojo>
