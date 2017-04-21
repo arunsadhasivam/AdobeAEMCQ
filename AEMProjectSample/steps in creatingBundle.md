@@ -112,4 +112,71 @@ i.e in pom.xml it creates a tag < packaging>content-package</ packaging>
 so it bundle as zip and install in aem packmgr -http://localhost:4502/crx/packmgr/index.jsp
 
 
+STEP 3:
+======
+We need assembly file to assemble all jars to one path and refer from crxde .
+
+
+     <build>
+         <sourceDirectory>src/assembly</sourceDirectory>
+         <resources>
+           <resource>
+             <filtering>false</filtering>
+             <directory>${dirPath}</directory>
+             <excludes>
+               <exclude>**/.vlt</exclude>
+               <exclude>**/.vltignore</exclude>
+             </excludes>
+           </resource>
+         </resources>
+         <plugins>
+           <plugin>
+             <groupId>com.day.jcr.vault</groupId>
+             <artifactId>content-package-maven-plugin</artifactId>
+             <extensions>true</extensions>
+             <executions>
+               <execution>
+                 <phase>package</phase>
+                 <goals>
+                   <goal>package</goal>
+                 </goals>
+               </execution>
+             </executions>
+           </plugin>
+           <plugin>
+             <artifactId>maven-assembly-plugin</artifactId>
+             <executions>
+               <execution>
+                 <phase>prepare-package</phase>
+                 <goals>
+                   <goal>single</goal>
+                 </goals>
+               </execution>
+             </executions>
+             <configuration>
+               <appendAssemblyId>false</appendAssemblyId>
+               <descriptors>
+                 <descriptor>src/assembly/assembly.xml</descriptor>
+               </descriptors>
+               <finalName>vault-work</finalName>
+             </configuration>
+           </plugin>
+           <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-resources-plugin</artifactId>
+             <executions>
+               <execution>
+                 <phase>package</phase>
+                 <goals>
+                   <goal>resources</goal>
+                 </goals>
+               </execution>
+             </executions>
+             <configuration>
+               <includeEmptyDirs>true</includeEmptyDirs>
+             </configuration>
+           </plugin>
+         </plugins>
+       </build>
+
 
