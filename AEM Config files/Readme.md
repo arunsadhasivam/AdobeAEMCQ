@@ -74,7 +74,8 @@ https://mvnrepository.com/artifact/org.apache.sling/maven-sling-plugin/2.2.0
 		<obr implementation="java.lang.String">${obr}</obr>
 		<password implementation="java.lang.String" default-value="admin">${sling.password}</password>
 		<slingConsoleUrl implementation="java.lang.String">${sling.console.url}</slingConsoleUrl>
-		<slingUrl implementation="java.lang.String"  default-value="http://localhost:8080/system/console">${sling.url}</slingUrl>
+		<slingUrl implementation="java.lang.String" 
+		  default-value="http://localhost:8080/system/console">${sling.url}</slingUrl>
 		 <slingUrlSuffix implementation="java.lang.String">${sling.urlSuffix}</slingUrlSuffix>
 		 <user implementation="java.lang.String" default-value="admin">${sling.user}</user>
 	    </configuration>
