@@ -46,7 +46,7 @@ ArtificatId will only be referenced in file.
 
 
 
-when seeing the maven-sling-plugin artifact
+when seeing the maven-sling-plugin plugin.xml from pom.xml artifact
 
 https://mvnrepository.com/artifact/org.apache.sling/maven-sling-plugin/2.2.0
 
