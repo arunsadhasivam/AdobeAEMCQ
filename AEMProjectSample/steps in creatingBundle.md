@@ -91,7 +91,12 @@ parent : webapi(root)
 next > choose catalog > AEM >
 
 choose com.day.jcr.vault > multimodule-content-package-archetype  1.0.2
-since we want as zip file we are choosing content-package i.e in pom.xml < packaging>content-package</ packaging>
+
+IMPORTANT:
+==========
+we choose above multimodule-content-package-archetype because we want to bundle as zip file through maven and automatically install in AEM.
+
+i.e in pom.xml it creates a tag < packaging>content-package</ packaging>
 so it bundle as zip and install in aem packmgr -http://localhost:4502/crx/packmgr/index.jsp
 
 
