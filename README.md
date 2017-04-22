@@ -102,118 +102,119 @@ Or use your mvn skills:
 
 2)use  maven script - if we dont want to install plugin.
 
-C:\Workspace\AEM> mvn archetype:generate \
- -DarchetypeGroupId=com.adobe.granite.archetypes \
- -DarchetypeArtifactId=aem-project-archetype \
- -DarchetypeVersion=11-SNAPSHOT
+     C:\Workspace\AEM> mvn archetype:generate \
+     -DarchetypeGroupId=com.adobe.granite.archetypes \
+     -DarchetypeArtifactId=aem-project-archetype \
+     -DarchetypeVersion=11-SNAPSHOT
  
 C:\Workspace\AEM>mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generat
 e -DarchetypeGroupId=com.adobe.granite.archetypes  -DarchetypeArtifactId=aem-pro
 ject-archetype -DarchetypeVersion=10 -DarchetypeCatalog=https://repo.adobe.com/n
 exus/content/groups/public/
-[INFO] Scanning for projects...
-[INFO]
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Maven Stub Project (No POM) 1
-[INFO] ------------------------------------------------------------------------
-[INFO]
-[INFO] >>> maven-archetype-plugin:2.4:generate (default-cli) > generate-sources
-@ standalone-pom >>>
-[INFO]
-[INFO] <<< maven-archetype-plugin:2.4:generate (default-cli) < generate-sources
-@ standalone-pom <<<
-[INFO]
-[INFO] --- maven-archetype-plugin:2.4:generate (default-cli) @ standalone-pom --
--
-[INFO] Generating project in Interactive mode
-[INFO] Archetype repository not defined. Using the one from [com.adobe.granite.a
-rchetypes:aem-project-archetype:8 -> https://repo.adobe.com/nexus/content/groups
-/public] found in catalog https://repo.adobe.com/nexus/content/groups/public/
-Define value for property 'groupId': : com.test
-Define value for property 'artifactId': : aem
-Define value for property 'version':  1.0-SNAPSHOT: :
-Define value for property 'package':  com.test: :
-Define value for property 'appsFolderName': :
-Define value for property 'artifactName': :
-Define value for property 'componentGroupName': :
-Define value for property 'contentFolderName': :
-Define value for property 'cssId': :
-Define value for property 'packageGroup': :
-Define value for property 'siteName': :
-[WARNING] Archetype is not fully configured
-[INFO] Using property: groupId = com.test
-[INFO] Using property: artifactId = aem
-[INFO] Using property: version = 1.0-SNAPSHOT
-[INFO] Using property: package = com.test
-Define value for property 'appsFolderName': :
-Define value for property 'artifactName': :
-Define value for property 'componentGroupName': :
-Define value for property 'contentFolderName': : content
-Define value for property 'cssId': : css
-Define value for property 'packageGroup': : package
-Define value for property 'siteName': : site
-[WARNING] Archetype is not fully configured
-[INFO] Using property: groupId = com.test
-[INFO] Using property: artifactId = aem
-[INFO] Using property: version = 1.0-SNAPSHOT
-[INFO] Using property: package = com.test
-Define value for property 'appsFolderName': : apps
-Define value for property 'artifactName': : aem1
-Define value for property 'componentGroupName': : components
-[INFO] Using property: contentFolderName = content
-[INFO] Using property: cssId = css
-[INFO] Using property: packageGroup = package
-[INFO] Using property: siteName = site
-Confirm properties configuration:
-groupId: com.test
-artifactId: aem
-version: 1.0-SNAPSHOT
-package: com.test
-appsFolderName: apps
-artifactName: aem1
-componentGroupName: components
-contentFolderName: content
-cssId: css
-packageGroup: package
-siteName: site
- Y: : Y
-[INFO] -------------------------------------------------------------------------
----
-[INFO] Using following parameters for creating project from Archetype: aem-proje
-ct-archetype:10
-[INFO] -------------------------------------------------------------------------
----
-[INFO] Parameter: groupId, Value: com.test
-[INFO] Parameter: artifactId, Value: aem
-[INFO] Parameter: version, Value: 1.0-SNAPSHOT
-[INFO] Parameter: package, Value: com.test
-[INFO] Parameter: packageInPathFormat, Value: com/test
-[INFO] Parameter: artifactName, Value: aem1
-[INFO] Parameter: componentGroupName, Value: components
-[INFO] Parameter: groupId, Value: com.test
-[INFO] Parameter: contentFolderName, Value: content
-[INFO] Parameter: siteName, Value: site
-[INFO] Parameter: appsFolderName, Value: apps
-[INFO] Parameter: version, Value: 1.0-SNAPSHOT
-[INFO] Parameter: cssId, Value: css
-[INFO] Parameter: package, Value: com.test
-[INFO] Parameter: packageGroup, Value: package
-[INFO] Parameter: artifactId, Value: aem
-[INFO] Parent element not overwritten in C:\Workspace\AEM\aem\core\pom.xml
-[INFO] Parent element not overwritten in C:\Workspace\AEM\aem\ui.apps\pom.xml
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\.content.xml
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\apps\components\content\colctrl\.content.xml
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\apps\components\content\colctrl\clientlib\.content.xml
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\apps\components\content\colctrl\clientlib\css.txt
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\apps\components\content\colctrl\clientlib\style.css
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
-cr_root\apps\apps\components\content\helloworld\.content.xml
-[WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+ 
+ 	[INFO] Scanning for projects...
+   	[INFO]
+	   [INFO] ------------------------------------------------------------------------
+	   [INFO] Building Maven Stub Project (No POM) 1
+	   [INFO] ------------------------------------------------------------------------
+	   [INFO]
+	   [INFO] >>> maven-archetype-plugin:2.4:generate (default-cli) > generate-sources
+	   @ standalone-pom >>>
+	   [INFO]
+	   [INFO] <<< maven-archetype-plugin:2.4:generate (default-cli) < generate-sources
+	   @ standalone-pom <<<
+	   [INFO]
+	   [INFO] --- maven-archetype-plugin:2.4:generate (default-cli) @ standalone-pom --
+	   -
+	   [INFO] Generating project in Interactive mode
+	   [INFO] Archetype repository not defined. Using the one from [com.adobe.granite.a
+	   rchetypes:aem-project-archetype:8 -> https://repo.adobe.com/nexus/content/groups
+	   /public] found in catalog https://repo.adobe.com/nexus/content/groups/public/
+	   Define value for property 'groupId': : com.test
+	   Define value for property 'artifactId': : aem
+	   Define value for property 'version':  1.0-SNAPSHOT: :
+	   Define value for property 'package':  com.test: :
+	   Define value for property 'appsFolderName': :
+	   Define value for property 'artifactName': :
+	   Define value for property 'componentGroupName': :
+	   Define value for property 'contentFolderName': :
+	   Define value for property 'cssId': :
+	   Define value for property 'packageGroup': :
+	   Define value for property 'siteName': :
+	   [WARNING] Archetype is not fully configured
+	   [INFO] Using property: groupId = com.test
+	   [INFO] Using property: artifactId = aem
+	   [INFO] Using property: version = 1.0-SNAPSHOT
+	   [INFO] Using property: package = com.test
+	   Define value for property 'appsFolderName': :
+	   Define value for property 'artifactName': :
+	   Define value for property 'componentGroupName': :
+	   Define value for property 'contentFolderName': : content
+	   Define value for property 'cssId': : css
+	   Define value for property 'packageGroup': : package
+	   Define value for property 'siteName': : site
+	   [WARNING] Archetype is not fully configured
+	   [INFO] Using property: groupId = com.test
+	   [INFO] Using property: artifactId = aem
+	   [INFO] Using property: version = 1.0-SNAPSHOT
+	   [INFO] Using property: package = com.test
+	   Define value for property 'appsFolderName': : apps
+	   Define value for property 'artifactName': : aem1
+	   Define value for property 'componentGroupName': : components
+	   [INFO] Using property: contentFolderName = content
+	   [INFO] Using property: cssId = css
+	   [INFO] Using property: packageGroup = package
+	   [INFO] Using property: siteName = site
+	   Confirm properties configuration:
+	   groupId: com.test
+	   artifactId: aem
+	   version: 1.0-SNAPSHOT
+	   package: com.test
+	   appsFolderName: apps
+	   artifactName: aem1
+	   componentGroupName: components
+	   contentFolderName: content
+	   cssId: css
+	   packageGroup: package
+	   siteName: site
+	    Y: : Y
+	   [INFO] -------------------------------------------------------------------------
+	   ---
+	   [INFO] Using following parameters for creating project from Archetype: aem-proje
+	   ct-archetype:10
+	   [INFO] -------------------------------------------------------------------------
+	   ---
+	   [INFO] Parameter: groupId, Value: com.test
+	   [INFO] Parameter: artifactId, Value: aem
+	   [INFO] Parameter: version, Value: 1.0-SNAPSHOT
+	   [INFO] Parameter: package, Value: com.test
+	   [INFO] Parameter: packageInPathFormat, Value: com/test
+	   [INFO] Parameter: artifactName, Value: aem1
+	   [INFO] Parameter: componentGroupName, Value: components
+	   [INFO] Parameter: groupId, Value: com.test
+	   [INFO] Parameter: contentFolderName, Value: content
+	   [INFO] Parameter: siteName, Value: site
+	   [INFO] Parameter: appsFolderName, Value: apps
+	   [INFO] Parameter: version, Value: 1.0-SNAPSHOT
+	   [INFO] Parameter: cssId, Value: css
+	   [INFO] Parameter: package, Value: com.test
+	   [INFO] Parameter: packageGroup, Value: package
+	   [INFO] Parameter: artifactId, Value: aem
+	   [INFO] Parent element not overwritten in C:\Workspace\AEM\aem\core\pom.xml
+	   [INFO] Parent element not overwritten in C:\Workspace\AEM\aem\ui.apps\pom.xml
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\.content.xml
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\apps\components\content\colctrl\.content.xml
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\apps\components\content\colctrl\clientlib\.content.xml
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\apps\components\content\colctrl\clientlib\css.txt
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\apps\components\content\colctrl\clientlib\style.css
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
+	   cr_root\apps\apps\components\content\helloworld\.content.xml
+	   [WARNING] CP Don't override file C:\Workspace\AEM\aem\ui.apps\src\main\content\j
 
 
 
