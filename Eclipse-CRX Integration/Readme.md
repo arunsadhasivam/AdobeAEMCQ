@@ -41,8 +41,7 @@ Two ways to check out project
 
 1)command line:
 ===============
-       	
-    c:\Arun> vlt --credentials admin:admin co --force http://localhost:4502/crx
+      c:\Arun\webapi\web.ui.apps\src\main\content\jcr_root> vlt --credentials admin:admin co --force http://localhost:4502/crx
    
 2)vaultClipse:
 ===============
