@@ -20,12 +20,9 @@ IMPORTANT:
 best to close the reference project  to avoid issue.
 
 maven root project itself enough since project structure below should alone be open.
-                                                                                                                                             -webapi
-   
-   -core
-   
-   -ui.apps
-   
-   -ui.content
-   
-   -webapi.depencies
+
+	 -webapi(ROOT BELOW ALL ARE SUB MODULES UNDER ROOT)
+   		-core
+        -ui.apps
+        -ui.content
+        -webapi.depencies
