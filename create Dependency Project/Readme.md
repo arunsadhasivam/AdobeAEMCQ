@@ -20,7 +20,7 @@ IMPORTANT:
 best to close the reference project  to avoid issue.
 
 maven root project itself enough since project structure below should alone be open.
-                                                                                                                                                webapi
+                                                                                                                                             -webapi
    
    -core
    
