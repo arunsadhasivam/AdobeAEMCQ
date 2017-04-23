@@ -2,7 +2,7 @@ To make jar availables for all modules like ui.apps,ui.content,core dependencies
 
 STEPS 1:
 ========
-create a depencies project by create NEW > maven project > select webapi for e.g as root maven project.
+create a depencies project by create NEW > maven Module > select webapi for e.g as root maven project.
 
 STEP 2:
 =======
