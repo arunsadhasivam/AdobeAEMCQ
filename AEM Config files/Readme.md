@@ -3,7 +3,7 @@ To override the location core jar generation:
 =============================================
 if mvn command below is given
      
-     clean install -PautoInstallPackage 
+     C:\ARUN\webapi>mvn clean install -PautoInstallPackage 
 
 it no profile is created to override default autoInstallPackage it generate the core-jar in /apos/apps/install/web-api-snapshot1.0.jar
 to override the path need to override using the profile parameter and give the path to generate the core module jar
