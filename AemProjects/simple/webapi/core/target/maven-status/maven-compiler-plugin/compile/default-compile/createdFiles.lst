@@ -1,0 +1,6 @@
+com\web\api\webapi\core\listeners\SimpleResourceListener.class
+com\web\api\webapi\core\models\HelloWorldModel.class
+com\web\api\webapi\core\package-info.class
+com\web\api\webapi\core\filters\LoggingFilter.class
+com\web\api\webapi\core\schedulers\SimpleScheduledTask.class
+com\web\api\webapi\core\servlets\SimpleServlet.class
