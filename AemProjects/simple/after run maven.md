@@ -32,7 +32,7 @@ check whether jar files are installed.
     
 iMPORTANT:
 ==========
-    3)WHEN creating the page through siteadmin page http://localhost:4502/siteadmin# when try to select
-    the template in site admin , created page in /apps folder comes only when attribute
-    in crxde path apps/webApi/templates/webApiTemplate has "allowedpaths" with some context path like /content/WebApi or
-     /content/webApi(/.*)? or /content(/.*)?
+ WHEN creating the page through siteadmin page http://localhost:4502/siteadmin# when try to select
+ the template in site admin , created page in /apps folder comes only when attribute
+ in crxde path apps/webApi/templates/webApiTemplate has "allowedpaths" with some
+ context path like /content/WebApi or  /content/webApi(/.*)? or /content(/.*)?
