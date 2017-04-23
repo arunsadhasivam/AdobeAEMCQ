@@ -45,8 +45,11 @@ Two ways to check out project
     
     >vlt --credentials admin:admin co --force http://localhost:4502/crx
     
-    Mandatory vlt commands works only if run on jcr_root !!! if it could find the valut.xml file underneath jrc_root
+    Mandatory vlt commands works based on filter.xml inside  jcr_root !!!
+    if it could find the filter.xml file underneath jrc_root
     it wont work.
+    
+     To check  in Right <<server Name of AEM created while generating project> export to server
    
 2)vaultClipse:
 ===============
