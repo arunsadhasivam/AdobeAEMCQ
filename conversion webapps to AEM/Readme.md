@@ -130,3 +130,13 @@ http://localhost:4502/crx/de/index.jsp#/apps/webApi/templates/webApiTemplate
 properties:
 ----------
 allowedPaths - /content(/.*)?
+
+
+http://localhost:4502/crx/de/index.jsp#/apps/webApi/templates/webApiTemplate/jcr:content
+
+properties:
+-----------
+
+sling:resourceType - /webApi/components/page/jsps
+
+
