@@ -166,7 +166,8 @@ change jsp to point to /etc/clientlib/js, /etc/client/css, /apps/webApi/componen
 
             </script> 
             <body  onload="onload()">
-            <!-- if this form is there when submit multipart form also this main form gets submitted and go to upload page again it wont go to servlet
+            <!-- if this form is there when submit multipart form also this main form gets submitted and go to upload page
+            again it wont go to servlet
                <form name='frmMain'  id='frmMain' method="POST">-->   
             <table  class="mainHeader" >
                     <tr>
