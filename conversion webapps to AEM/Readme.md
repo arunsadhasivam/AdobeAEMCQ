@@ -121,7 +121,7 @@ properties:
 ===========
 
 cq:template-/apps/webApi/templates/webApiTemplate
-sling:resourceType- /apps/webApi/components/page/jsps
+sling:resourceType- /apps/webApi/components/page/main.jsp
 
 flow2:
 =====
