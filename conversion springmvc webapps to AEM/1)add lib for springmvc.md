@@ -24,8 +24,8 @@ webapi/dependencies/pom.xml
 
      <parent>
         <groupId>com.web.api</groupId>
-        <artifactId>webapi</artifactId>
-        <version>1.0-SNAPSHOT</version>
+ 		<artifactId>webapi</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>webapi.dependencies</artifactId>
@@ -38,8 +38,8 @@ main webapi/pom.xml
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.web.api</groupId>
     <artifactId>webapi</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
     <description>webapi</description>
     <modules>
       <module>core</module>
