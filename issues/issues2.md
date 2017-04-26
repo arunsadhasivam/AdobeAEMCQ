@@ -58,7 +58,8 @@ Solution:
 =========
 give proper value - export package controller since all controller will be accessed public in jsp
 and other packages are private packages called with in webapplication by servlets so make it as private package.
-
+since spring mvc boot application start stop using webAppInitializer without web.xml use it as Bundle Activator.
+i.e when bundle is stop all web applications loaded dao needs to be stoped or unloaded by spring Application context.
      <build>
             <plugins>
                 <plugin>
