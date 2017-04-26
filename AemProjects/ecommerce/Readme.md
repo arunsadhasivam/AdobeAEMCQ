@@ -34,21 +34,21 @@ OUPUT:
     
 check whether bundle is installed.
 
- 485	 webapi - Corecom.web.api.webapi.core
-Symbolic Name	com.web.api.webapi.core
-Version	0.0.1.SNAPSHOT
-Bundle Location	G:\workspace\AEM\webapi\core\target\classes
-Last Modification	Wed Apr 26 02:11:58 PDT 2017
-Description	Core bundle for webapi
-Start Level	20
-Exported Packages	com.shop.controller,version=0.0.1
-Imported Packages	javax.servlet from org.apache.felix.http.servlet-api (37)
-javax.servlet.http from org.apache.felix.http.servlet-api (37)
-org.springframework.beans.factory -- Cannot be resolved
-org.springframework.beans.factory.annotation -- Cannot be resolved
-org.springframework.context.annotation -- Cannot be resolved
-org.springframework.core.env -- Cannot be resolved
-org.springframework.dao -- Cannot be resolved
-org.springframework.jdbc.core -- Cannot be resolved
-org.springframework.stereotype -- Cannot be resolved
+    485	 webapi - Corecom.web.api.webapi.core
+    Symbolic Name	com.web.api.webapi.core
+    Version	0.0.1.SNAPSHOT
+    Bundle Location	G:\workspace\AEM\webapi\core\target\classes
+    Last Modification	Wed Apr 26 02:11:58 PDT 2017
+    Description	Core bundle for webapi
+    Start Level	20
+    Exported Packages	com.shop.controller,version=0.0.1
+    Imported Packages	javax.servlet from org.apache.felix.http.servlet-api (37)
+    javax.servlet.http from org.apache.felix.http.servlet-api (37)
+    org.springframework.beans.factory -- Cannot be resolved
+    org.springframework.beans.factory.annotation -- Cannot be resolved
+    org.springframework.context.annotation -- Cannot be resolved
+    org.springframework.core.env -- Cannot be resolved
+    org.springframework.dao -- Cannot be resolved
+    org.springframework.jdbc.core -- Cannot be resolved
+    org.springframework.stereotype -- Cannot be resolved
    
