@@ -1,4 +1,9 @@
-public class EmpRole  extends WCMUse {
+
+STEP 1:
+=======
+write component extends WCMUse to use by sightly.
+
+    public class EmpRole  extends WCMUse {
 
 	private List<String> list;
 	
@@ -40,23 +45,29 @@ emprolevalue - Developer,Tester,manager.
 STEP 3:
 ========
 
-<div id="empRoles" data-sly-use.sr="com.core.components.EmpRole">
-            	<table data-sly-list="${sr.list}" class="tblChkBox">
-       		        <tr>	
-	                    <td colspan="2"><input type="checkbox"  class="chkwidth" id="chkRole${item}"  />
-	                    <span>${item @ i18n} </span></td>
-		            </tr>
-		          </table>
-			</div>
-      
+	<div id="empRoles" data-sly-use.sr="com.core.components.EmpRole">
+			<table data-sly-list="${sr.list}" class="tblChkBox">
+				<tr>	
+				    <td colspan="2"><input type="checkbox"  class="chkwidth" id="chkRole${item}"  />
+				    <span>${item @ i18n} </span></td>
+				    </tr>
+				  </table>
+	</div>
+
  improved best way:
  ==================
  
  http://adobe-consulting-services.github.io/
  
- <table data-sly-list.empList="${EMP.empObject.empRoleValue}"class="tblChkBox">
-                  <tr>	
-                      <td><input type="checkbox"  class="chkwidth" id="chkRole${empList.key}"  />
-                      <span>${empList.key @ i18n} </span>
-                  </tr>
- </table>
+	 <table data-sly-list.empList="${EMP.empObject.empRoleValue}"class="tblChkBox">
+			  <tr>	
+			      <td><input type="checkbox"  class="chkwidth" id="chkRole${empList.key}"  />
+			      <span>${empList.key @ i18n} </span>
+			  </tr>
+	 </table>
+	 
+   code to do dynamically:
+   ======================
+    
+    Node curNode = getResourceResolver().getResource(UIPM_form_path + "/jcr:content").adaptTo(Node.class);
+    NodeIterator nodeItr = node.getNodes();
