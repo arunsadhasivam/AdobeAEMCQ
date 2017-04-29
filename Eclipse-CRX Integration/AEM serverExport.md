@@ -25,3 +25,14 @@ so you can work module inside root itself to avoid confusion.
 
 G:\workspace\AEM\webapi\ui.apps\src\main\content\jcr_root>vlt --credentials admi
 n:admin co --force http://localhost:4502/crx
+
+
+1)usually pom.xml bundle packaging wont show in server.
+
+you can change bundle settings:
+
+double on aem server instance >
+
+install > install bundles directly from the filesystem.
+
+you can also check on install bundles via bundle upload.
