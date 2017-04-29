@@ -50,7 +50,10 @@ Two ways to check out project
     it wont work.
     
      To check  in Right <<server Name of AEM created while generating project> export to server
-   
+   IMPORTANT:
+   =========
+   if some error in jsp right click wont show AEM created server name. so make sure no error shown and then right
+   click select aem server > make sure aem server up and running >checkin to crx> view the web page.
 2)vaultClipse:
 ===============
 check whether any vaultclipse shown else  check below:
