@@ -11,12 +11,11 @@ NOTE:
 To avoid issues close all maven module which create in view. have only one root project which has
 all other projects like core,ui.apps,dependencies.
 
+    -webapi 
+        -core
+         -ui.apps
+         -dependencies.
 
--webapi 
-   -core
-   -ui.apps
-   -dependencies.
-   
 
 G:\workspace\AEM\webapi\ui.apps\src\main\content\jcr_root>vlt --credentials admi
 n:admin co --force http://localhost:4502/crx
