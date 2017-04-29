@@ -8,11 +8,17 @@ you create a NEW SERVER  > Adode > Adobe Experience Manager> select the Maven mo
 
 NOTE:
 =====
-To avoid issues close all maven module which create in view. have only one root project which has
-all other projects like core,ui.apps,dependencies.
+if you close any project like dependencies it won't show up when try to add modules to server or when doing
+create new server > add modules it shows " There are no resources that can be added or removed from server"
+when adding or editing or deleting any sub-modules in root also will get reflected in outside view.
+for e.g any change in -webapi>core>pom.xml will get reflected in external view created outside core>pon.xml.
+so you can work module inside root itself to avoid confusion.
 
+    -dependencies
+    -core
+    -ui.apps 
     -webapi 
-        -core
+         -core
          -ui.apps
          -dependencies.
 
