@@ -14,6 +14,7 @@ G:\workspace\AEM\webapi>vlt --credentials admin:admin co --force http://localhos
 
 STEP 3:
 ======
+double click on the AEM server and change the port if it is first time to 4502.
 Start the AEM server.
 
 STEP 4:
