@@ -60,12 +60,18 @@ below errors shown while installed.
       Export-Package: com.shop.config; uses:="org.springframework.context.annotation, org.springframework.web.servlet.config.annotation"; version="0.0.1", com.shop.constant; version="0.0.1",
       com.shop.controller; uses:="com.shop.domain, javax.servlet.http, org.springframework.stereotype, 
       org.springframework.ui, org.springframework.web.bind.annotation, org.springframework.web.servlet"; version="0.0.1", 
-      com.shop.dao; uses:="com.shop.domain, org.springframework.beans.factory, org.springframework.jdbc.core, org.springframework.stereotype"; version="0.0.1", com.shop.dao.jdbc; version="0.0.1", com.shop.domain; version="0.0.1", com.shop.service; uses:="com.shop.domain, org.springframework.stereotype"; version="0.0.1", com.shop.servlet;
+      com.shop.dao; uses:="com.shop.domain, org.springframework.beans.factory, 
+      org.springframework.jdbc.core, org.springframework.stereotype"; version="0.0.1", com.shop.dao.jdbc; version="0.0.1",
+      com.shop.domain; version="0.0.1", com.shop.service; uses:="com.shop.domain, 
+      org.springframework.stereotype"; version="0.0.1", com.shop.servlet;
       uses:="javax.servlet, org.springframework.context.annotation, org.springframework.web"; version="0.0.1"
-      Import-Package: com.shop.config, com.shop.dao, com.shop.domain, com.shop.service, javax.servlet;
-      version="[3.1, 4)", javax.servlet.http; version="[3.1, 4)", org.springframework.beans.factory, org.springframework.beans.factory.annotation, org.springframework.context.annotation,
+      Import-Package: com.shop.config, com.shop.dao, com.shop.domain, com.shop.service,javax.servlet;
+      version="[3.1, 4)", javax.servlet.http; version="[3.1, 4)", org.springframework.beans.factory,    org.springframework.beans.factory.annotation, org.springframework.context.annotation,
       org.springframework.core.env, org.springframework.dao, org.springframework.jdbc.core, 
-      org.springframework.stereotype, org.springframework.ui, org.springframework.web, org.springframework.web.bind.annotation, org.springframework.web.context, org.springframework.web.context.support, org.springframework.web.servlet, org.springframework.web.servlet.config.annotation
+      org.springframework.stereotype, org.springframework.ui, org.springframework.web,
+      org.springframework.web.bind.annotation, org.springframework.web.context, 
+      org.springframework.web.context.support, org.springframework.web.servlet,
+      org.springframework.web.servlet.config.annotation
       Manifest-Version: 1.0
       Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.6))"
       Tool: Bnd-3.3.0.201609221906
