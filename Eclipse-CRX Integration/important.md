@@ -1,6 +1,21 @@
 It is very important to remember that every time you open eclipse it is important done this.
 
 
+NOTE:
+====
+only ui.apps has facility to export files to server.
+right click on ui.apps main project not project under webapi only ui.apps separate module> 
+i.e only 
+
+important:
+==========
+    c:\AEM\ui.apps  support Export to crx functionality.
+    c:\AEM\webapi\ui.apps  does not support Export to crx functionality.
+
+Repository AEMserver(instance created manually)
+will apply export filter from ui.apps/src/main/content/META-INF/valut/filter.xml
+
+
 STEP 1:
 =======
 right click project > Maven > Update Project to make sure that the project pom.xml 
