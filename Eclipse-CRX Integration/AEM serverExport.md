@@ -11,6 +11,15 @@ pom, or content_type will be displayed . packaging bundle type wont be shown.
     >cd G:\AEM\webapi\ui.apps\src\main\content\jcr_root>
     >vlt --credentials admi n:admin co --force http://localhost:4502/crx
     >Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+    >Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; suppor
+    >t was removed in 8.0
+    >Checkout http://localhost:4502/crx/server/-/jcr:root/ with local files using roo
+    >t at G:\workspace\AEM\webapi\jcr_root
+    >Connecting via JCR remoting to http://localhost:4502/crx/server
+    >[WARN ] Credentials for http://localhost:4502/crx/server/-/jcr:root/ updated in
+    >C:\Users\HOME\.vault\auth.xml.
+    >Checking out / to .
+
 
 
 
