@@ -8,7 +8,9 @@ you create a NEW SERVER  > Adode > Adobe Experience Manager> when selecting the 
 you can see now ui.apps and core will be displayed. because project with pom.xml packaging type
 pom, or content_type will be displayed . packaging bundle type wont be shown.  
 
-    G:\AEM\webapi\ui.apps\src\main\content\jcr_root>vlt --credentials admi n:admin co --force http://localhost:4502/crx
+    >cd G:\AEM\webapi\ui.apps\src\main\content\jcr_root>
+    >vlt --credentials admi n:admin co --force http://localhost:4502/crx
+    >Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
 
 
 
