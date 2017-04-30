@@ -1,6 +1,8 @@
 in Eclipse you can see AEM server , you could see AEM server only to
 the project which is connected to crx.
 
+
+
 NOTE:
 ====
 if you give the below command only ui.apps is connect /sync to crx. hence when for instance
@@ -19,6 +21,19 @@ pom, or content_type will be displayed . packaging bundle type wont be shown.
     >[WARN ] Credentials for http://localhost:4502/crx/server/-/jcr:root/ updated in
     >C:\Users\HOME\.vault\auth.xml.
     >Checking out / to .
+
+
+only ui.apps has facility to export files to server.
+right click on ui.apps main project not project under webapi only ui.apps separate module> 
+i.e only 
+
+important:
+==========
+    c:\AEM\ui.apps  support Export to crx functionality.
+    c:\AEM\webapi\ui.apps  does not support Export to crx functionality.
+
+Repository AEMserver(instance created manually)
+will apply export filter from ui.apps/src/main/content/META-INF/valut/filter.xml
 
 
 
