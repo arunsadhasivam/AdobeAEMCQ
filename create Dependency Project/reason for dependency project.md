@@ -3,6 +3,10 @@ After installing the application in aem.
 After running pom.xml of root webapi.
 the webapi/webcore bundle installed in the aem bundle console .
 
+To install all the spring jar as bundle i.e META-INF with import, export added to
+support osgi. otherwise 404 jar error shown jar is not a bundle.
+below shown core project is not "activated" it is just installed.
+
       486	 webapi - Corecom.web.api.webapi.core
       Symbolic Name	com.web.api.webapi.core
       Version	0.0.1.SNAPSHOT
@@ -24,6 +28,12 @@ the webapi/webcore bundle installed in the aem bundle console .
       com.shop.service from com.web.api.webapi.core (486)
       javax.servlet,version=[3.1,4) from org.apache.felix.http.servlet-api (37)
       javax.servlet.http,version=[3.1,4) from org.apache.felix.http.servlet-api (37)
+
+errors:
+======
+below errors shown while installed.
+ 
+      
       org.springframework.beans.factory -- Cannot be resolved
       org.springframework.beans.factory.annotation -- Cannot be resolved
       org.springframework.context.annotation -- Cannot be resolved
