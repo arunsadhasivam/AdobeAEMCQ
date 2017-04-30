@@ -45,3 +45,30 @@ see below  /etc/clientlibs/webApi from webapi change only showing exception
     [WARN ] Credentials for http://localhost:4502/crx/server/-/jcr:root/ updated in
     C:\Users\HOME\.vault\auth.xml.
     Checking out / to .
+
+TO DEBUG
+========
+to debug below exception even after running above vlt sync command if below issue persist.
+
+
+    Failed publishing path=/etc/clientlibs/webApi/js/ajax.js, result=JcrResult[ success:false, 
+    exception: org.apache.sling.ide.transport.RepositoryException - javax.jcr.InvalidItemStateException:
+    /etc/clientlibs/webapi/js/ajax.js/jcr:content]
+
+
+STEP 1:
+=======
+goto .vlt between /etc/clientlibs/webApi if timestamp if still point old one it causes issue.
+e.g:below vlt file has old entry
+\AEM\webapi\ui.apps\src\main\content\jcr_root\etc\clientlibs\webApi\js\.vlt
+
+    <entries path="/etc/clientlibs/webapi/js">
+      <entry name="ajax.js" rp="" ap="/etc/clientlibs/webapi/js/ajax.js">
+        <base date="2017-04-29T13:46:08.000-07:00" md5="98424aee65e14e431fa5ce16dd4aedf2" contentType="application/javascript" size="2827"/>
+        <work date="2017-04-29T13:46:08.000-07:00" md5="98424aee65e14e431fa5ce16dd4aedf2" contentType="application/javascript" size="2827"/>
+      </entry>
+    </entries>
+    
+SOLUTION: 
+=========
+Delete whole folder and checkout latest from crxde , so it automatically creates latest .vlt file and it works!!!!
