@@ -22,4 +22,18 @@ Also i changed the same in filter.xml but once changed filter.xml need to run th
         <filter root="/etc/clientlibs/webApi" />
     </workspaceFilter>
 
-G:\workspace\AEM\webapi\ui.apps\src\main\content\jcr_root\etc\clientlibs\webApi
+path changed:
+=============
+G:\AEM\webapi\ui.apps\src\main\content\jcr_root\etc\clientlibs\webApi
+
+
+    G:\workspace\AEM\webapi\jcr_root>vlt --credentials admin:admin co --force http:/
+    /localhost:4502/crx
+    Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; suppor
+    t was removed in 8.0
+    Checkout http://localhost:4502/crx/server/-/jcr:root/ with local files using roo
+    t at G:\workspace\AEM\webapi\jcr_root
+    Connecting via JCR remoting to http://localhost:4502/crx/server
+    [WARN ] Credentials for http://localhost:4502/crx/server/-/jcr:root/ updated in
+    C:\Users\HOME\.vault\auth.xml.
+    Checking out / to .
