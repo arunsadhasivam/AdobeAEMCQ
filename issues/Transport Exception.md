@@ -26,6 +26,14 @@ path changed:
 =============
 G:\AEM\webapi\ui.apps\src\main\content\jcr_root\etc\clientlibs\webApi
 
+Actual exception:
+=================
+see below  /etc/clientlibs/webApi from webapi change only showing exception
+  
+     Failed publishing path=/etc/clientlibs/webApi/js/ajax.js, result=JcrResult[ success:false, 
+    exception: org.apache.sling.ide.transport.RepositoryException - javax.jcr.InvalidItemStateException:
+    /etc/clientlibs/webapi/js/ajax.js/jcr:content]
+
 
     G:\workspace\AEM\webapi\jcr_root>vlt --credentials admin:admin co --force http:/
     /localhost:4502/crx
