@@ -8,7 +8,7 @@ you create a NEW SERVER  > Adode > Adobe Experience Manager> when selecting the 
 you can see now ui.apps and core will be displayed. because project with pom.xml packaging type
 pom, or content_type will be displayed . packaging bundle type wont be shown.  
 
-G:\AEM\webapi\ui.apps\src\main\content\jcr_root>vlt --credentials admi n:admin co --force http://localhost:4502/crx
+    G:\AEM\webapi\ui.apps\src\main\content\jcr_root>vlt --credentials admi n:admin co --force http://localhost:4502/crx
 
 
 
