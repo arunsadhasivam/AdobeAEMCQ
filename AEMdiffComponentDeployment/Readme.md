@@ -20,14 +20,13 @@ filter=false,excludeTransitive=false,target=/apps/apps/install/ ---
 \workspace\TestWeb\webApi\core\target\webapi.core-0.0.1-SNAPSHOT.jar) -> jc
 r_root/apps/apps/install/webapi.core-0.0.1-SNAPSHOT.jar
 
-[INFO] Installing org/symantec/scim/scimApi.core/0.0.1-SNAPSHOT/scimApi.core-0.0
+[INFO] Installing org/test/scim/scimApi.core/0.0.1-SNAPSHOT/scimApi.core-0.0
 .1-SNAPSHOT.jar
 
 [INFO] Writing OBR metadata
 
 [INFO] Installing C:\ARUN\workspace\TestWeb\webApi\ui.apps\target\scimApi.ui
-.apps-0.0.1-SNAPSHOT.zip to C:\Users\arunkumar_sadhasivam\.m2\repository\org\sym
-antec\scim\webapi.ui.apps\0.0.1-SNAPSHOT\webapi.ui.apps-0.0.1-SNAPSHOT.zip
+.apps-0.0.1-SNAPSHOT.zip to C:\Users\arunkumar_sadhasivam\.m2\repository\org\test\scim\webapi.ui.apps\0.0.1-SNAPSHOT\webapi.ui.apps-0.0.1-SNAPSHOT.zip
 
 NOTE:
 =====
