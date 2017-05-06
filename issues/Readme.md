@@ -53,7 +53,7 @@ usually content module, dependencies modules where all jars needed for core,ui,c
           <group>scim Content Package</group>
           <embeddeds>
             <embedded>
-               <groupId>org.symantec.scim</groupId>
+               <groupId>org.test.scim</groupId>
       		   <artifactId>webApi</artifactId>
               <target>/apps/TestWeb/install</target>
             </embedded>
