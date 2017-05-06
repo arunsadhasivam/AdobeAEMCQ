@@ -123,7 +123,7 @@
                     <group>package</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>org.symantec.scim</groupId>
+                            <groupId>org.test.scim</groupId>
                             <artifactId>scimApi.core</artifactId>
                             <target>/apps/apps/install</target>
                         </embedded>
@@ -198,7 +198,7 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>org.symantec.scim</groupId>
+            <groupId>org.test.scim</groupId>
             <artifactId>scimApi.core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
