@@ -55,7 +55,7 @@ Two ways to check out project
 2)To check out only selected folder:
 =====================================
 
-    vlt --credentials admin:admin co http://10.90.226.30:4503/crx/-/jcr:root/content/test
+    vlt --credentials admin:admin co http://localhost:4503/crx/-/jcr:root/content/test
 
 3) To copy to remote
 ======================
