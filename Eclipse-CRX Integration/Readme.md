@@ -51,6 +51,20 @@ Two ways to check out project
     
      To check  in Right <<server Name of AEM created while generating project> export to server
 
+
+2)To check out only selected folder:
+=====================================
+
+    vlt --credentials admin:admin co http://10.90.226.30:4503/crx/-/jcr:root/content/test
+
+3) To copy to remote
+======================
+
+
+    vlt rcp -b 100 -r -u -n http://localhost:4502/crx/-/jcr:root/content/dam/geometrixx http://localhost:4503/crx/-/jcr:root/content/dam/geometrixx-test
+
+
+
 IMPORTANT:
 =========
    if some error in jsp right click wont show AEM created server name. so make sure no error shown and then right
