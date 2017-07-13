@@ -60,6 +60,10 @@ Two ways to check out project
 3) To copy to remote
 ======================
 
+   below remote connection works perfectly!!!
+
+    vlt rcp -b 100 -r -u -n http://admin:admin@localhost:4502/crx/-/jcr:root/content/dam/test http://admin:admin@localhost:4503/crx/-/jcr:root/content/dam/test1
+
 
     vlt rcp -b 100 -r -u -n http://localhost:4502/crx/-/jcr:root/content/dam/geometrixx http://localhost:4503/crx/-/jcr:root/content/dam/geometrixx-test
 
